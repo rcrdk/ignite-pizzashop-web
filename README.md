@@ -27,7 +27,7 @@ This project was developed for practicing the connection between this front-end 
 
 <!-- - [Deploy]() -->
 - [Back-End API](https://github.com/rocketseat-education/pizzashop-api)
-> The Resend integration was disabled, insert any value at `RESEND_API_KEY` on `.env` file. To get the access link check your terminal logs.
+> The Resend integration was disabled. To run app and get access url, insert any value at `RESEND_API_KEY` on `.env` file; In `seed.ts` find and copy the e-mail for sign inside create restaurant manager seed function; Paste the e-mail on login and get the access url on api console terminal.
 
 ## ⚙️ Enviroment Variables
 
