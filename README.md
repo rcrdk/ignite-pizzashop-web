@@ -19,9 +19,9 @@ I developed this project as a challenge of my latest studies on React lessons at
 
 ## 💻 Project
 
-This project was developed for practicing the connection between this front-end app and it's API provied by the school and available at links section. 
+This project was developed for practicing the connection between this front-end app and it's API provied by the school and available at links section. The main practice was connecting the API to this front-end project using React Query for caching data. It was used shadcn/ui as component library along with radix.
 
-<!-- **It includes:** A home page containing user card and posts list with pagination and filter by query string; A post page with post contents; A fallback page for general errors such as 404. -->
+**It includes:** A sign up and sign in pages; A dashboard with summary and graphs; A modal form to edit restaurant information; An orders module with status management and view detailed information; A error page.
 
 ## 🔗 Links
 
@@ -33,5 +33,5 @@ This project was developed for practicing the connection between this front-end 
 
 ```shell
 VITE_API_URL="http://localhost:3333"
-VITE_ENABLE_API_DELAY=true
+VITE_ENABLE_API_DELAY=true # true for delaying requests and test skeletons
 ```
