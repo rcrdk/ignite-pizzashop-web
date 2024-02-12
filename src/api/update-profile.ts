@@ -1,6 +1,6 @@
 import { API } from '@/lib/axios'
 
-interface UpdateProfileBody {
+export interface UpdateProfileBody {
 	name: string
 	description: string | null
 }
