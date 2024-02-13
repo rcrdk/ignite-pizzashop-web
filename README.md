@@ -16,10 +16,12 @@ I developed this project as a challenge of my latest studies on React lessons at
 - [React Router](https://reactrouter.com/en/main)
 - [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
 - [Axios](https://axios-http.com/docs/intro)
+- [Testing Library](https://testing-library.com) + [Happy DOM](https://github.com/capricorn86/happy-dom)
+- [Mock Service Worker](https://mswjs.io) + [Playwright](https://playwright.dev)
 
 ## 💻 Project
 
-This project was developed for practicing the connection between this front-end app and it's API provied by the school and available at links section. The main practice was connecting the API to this front-end project using React Query for caching data. It was used shadcn/ui as component library along with radix.
+This project was developed for practicing the connection between this front-end app and it's API provied by the school and available at links section. The main practice was connecting the API to this front-end project using React Query for caching data. It was used shadcn/ui as component library along with radix. Here I've added unit tests on some components using Testing Library with Happy DOM and also, added E2E tests with Playright and Mock Service Worker.
 
 **It includes:** A sign up and sign in pages; A dashboard with summary and graphs; A modal form to edit restaurant information; An orders module with status management and view detailed information; A error page.
 
